@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Before assembling"
-touch /etc/opt/itworks
 
 /usr/libexec/s2i/assemble
 rc=$?

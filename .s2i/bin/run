@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "Before running application"
+sed -i 's/GMT/"America\/New_York"/g' /opt/app-root/etc/php.ini.template
 exec /usr/libexec/s2i/run
